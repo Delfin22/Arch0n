@@ -1,0 +1,41 @@
+.logoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: aqua;
+  cursor: pointer;
+  z-index: 2;
+}
+.logoWrapper h1 {
+  font-size: 3rem;
+  font-family: "Train One", system-ui;
+}
+
+.logo {
+  height: 5.2rem;
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+  .logoWrapper h1 {
+    font-size: 2rem;
+  }
+  .logo {
+    height: 4.2rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .logoWrapper h1 {
+    font-size: 1rem;
+  }
+  .logo {
+    height: 3.2rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .logoWrapper h1 {
+    font-size: 0.5rem;
+  }
+  .logo {
+    height: 2.2rem;
+  }
+}

@@ -1,0 +1,49 @@
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2%;
+  border-radius: 2rem;
+  color: wheat;
+  text-transform: uppercase;
+}
+.content h1 {
+  font-size: 2.2rem;
+  text-wrap: nowrap;
+}
+.content p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 805px), (max-height: 500px) {
+  .content h1 {
+    font-size: 2rem;
+  }
+  .content p {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 515px), (max-height: 450px) {
+  .content h1 {
+    font-size: 1.5rem;
+  }
+  .content p {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 400px), (max-height: 390px) {
+  .content h1 {
+    font-size: 1rem;
+  }
+  .content p {
+    font-size: 0.6rem;
+  }
+}

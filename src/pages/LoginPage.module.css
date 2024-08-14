@@ -1,0 +1,81 @@
+.content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2%;
+  border-radius: 2rem;
+  color: wheat;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.content form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.content input {
+  font-size: 2rem;
+  border-radius: 0.5rem;
+}
+.content button {
+  display: inline-block;
+  margin: 20px 10px;
+  margin-bottom: 0px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  color: #000;
+  background: #fff;
+  line-height: 30px;
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-shadow: rgb(179, 157, 176) -2px -2px 0px 2px,
+    rgb(76, 0, 79) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+  transition: all 0.2s;
+}
+.content button:hover {
+  box-shadow: rgb(76, 0, 79) -2px -2px 0px 2px,
+    rgb(179, 157, 176) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+  transform: scale(1.01);
+}
+@media only screen and (max-width: 805px), (max-height: 500px) {
+  .content form {
+    gap: 0px;
+  }
+  .content input {
+    font-size: 2rem;
+  }
+  .content button {
+    margin-top: 0px;
+    margin-top: 30px;
+    font-size: 1rem;
+    padding: 7px;
+  }
+}
+@media only screen and (max-width: 515px), (max-height: 450px) {
+  .content input {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 400px), (max-height: 390px) {
+  .content input {
+    font-size: 1rem;
+  }
+  .content button {
+    margin-top: 10px;
+    font-size: 10px;
+    padding: 10px;
+  }
+}

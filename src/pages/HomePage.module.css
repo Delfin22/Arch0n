@@ -1,0 +1,70 @@
+.content {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 3%;
+  border-radius: 2rem;
+  color: wheat;
+  text-transform: uppercase;
+  text-wrap: nowrap;
+}
+.content h1 {
+  font-size: 2.5rem;
+}
+
+/* Button from https://copy-paste-css.com/ */
+.content button {
+  margin-top: 40px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  color: #000;
+  background: #fff;
+  line-height: 30px;
+  border-radius: 40px;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  box-shadow: rgb(179, 157, 176) -2px -2px 0px 2px,
+    rgb(76, 0, 79) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+  transition: all 0.2s;
+}
+.content button:hover {
+  box-shadow: rgb(76, 0, 79) -2px -2px 0px 2px,
+    rgb(179, 157, 176) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+  transform: scale(1.01);
+}
+@media only screen and (max-width: 805px), (max-height: 500px) {
+  .content h1 {
+    font-size: 2rem;
+  }
+  .content button {
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 515px), (max-height: 450px) {
+  .content h1 {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 400px), (max-height: 390px) {
+  .content h1 {
+    font-size: 1rem;
+  }
+  .content button {
+    margin-top: 10px;
+    font-size: 10px;
+    padding: 10px;
+  }
+}

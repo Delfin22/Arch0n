@@ -1,0 +1,17 @@
+.wrapper {
+  width: 100%;
+  height: auto;
+  background-color: rgba(14, 0, 65, 0.589);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.itemsContainer {
+  justify-content: center;
+  display: flex;
+  max-width: 80%;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 30px;
+}
