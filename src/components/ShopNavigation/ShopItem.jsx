@@ -1,11 +1,11 @@
 /* eslint-disable react/prop-types */
 import styles from "./ShopItem.module.css";
-function ShopItem({ name, photo, producer }) {
+function ShopItem({ item, onCurrentItem }) {
   return (
-    <div className={styles.wrap}>
-      <img src={photo} alt={name} />
-      <h2>{name}</h2>
-      <h3>{producer}</h3>
+    <div className={styles.wrap} onClick={() => onCurrentItem(item)}>
+      <img src={item.itemImgUrl} alt={item.name} />
+      <h2>{item.name}</h2>
+      <h2>{item.price}</h2>
     </div>
   );
 }

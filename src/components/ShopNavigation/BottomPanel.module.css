@@ -1,4 +1,10 @@
 .wrap {
   width: 100%;
-  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  color: wheat;
+  font-size: 5rem;
+  cursor: pointer;
 }

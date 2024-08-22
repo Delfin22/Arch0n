@@ -1,5 +1,6 @@
 .wrapper {
   width: 100%;
+  min-height: 100vh;
   height: auto;
   background-color: rgba(14, 0, 65, 0.589);
   display: flex;
@@ -14,4 +15,5 @@
   gap: 30px;
   flex-wrap: wrap;
   padding: 30px;
+  padding-bottom: 0px;
 }

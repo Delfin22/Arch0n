@@ -1,0 +1,35 @@
+.wrapper {
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  color: wheat;
+  gap: 50px;
+}
+.wrapper img {
+  width: 500px;
+  height: 400px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.content h2 {
+  color: crimson;
+}
+.pricing {
+  margin: 20px;
+  gap: 30px;
+  display: flex;
+  font-size: 1.6rem;
+  color: rgb(234, 0, 255);
+}
+.content button {
+  cursor: pointer;
+  width: 300px;
+  font-size: 2rem;
+  background-color: chartreuse;
+  border-radius: 1.2rem;
+  padding: 7px;
+}
