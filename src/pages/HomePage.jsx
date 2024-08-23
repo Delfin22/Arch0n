@@ -1,5 +1,5 @@
 import styles from "./HomePage.module.css";
-import BGvideo from "../assets/homeBG.mp4";
+import BGvideo from "/assets/HomeBG.mp4";
 import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 import PageNav from "../components/pageNavigation/PageNav";

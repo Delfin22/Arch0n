@@ -1,4 +1,4 @@
-import BGvideo from "../assets/AboutUsBG.mp4";
+import BGvideo from "/assets/aboutUsBG.mp4";
 import PageNav from "../components/pageNavigation/PageNav";
 import styles from "./aboutPage.module.css";
 import { motion } from "framer-motion";

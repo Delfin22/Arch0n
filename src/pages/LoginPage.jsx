@@ -1,5 +1,5 @@
 import styles from "./LoginPage.module.css";
-import BGvideo from "../assets/loginBG.mp4";
+import BGvideo from "/assets/loginBG.mp4";
 import PageNav from "../components/pageNavigation/PageNav";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";

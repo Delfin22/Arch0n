@@ -1,4 +1,4 @@
-import BGvideo from "../assets/coopBG.mp4";
+import BGvideo from "/assets/coopBG.mp4";
 import styles from "./CoopPage.module.css";
 import PageNav from "../components/pageNavigation/PageNav";
 import { motion } from "framer-motion";
