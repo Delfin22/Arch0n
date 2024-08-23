@@ -29,7 +29,6 @@ function ShopPage() {
     function () {
       async function FetchItems() {
         setItems([]);
-        console.log("fetched");
         const request = {
           method: "GET",
           headers: {
