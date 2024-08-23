@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useLocation, useNavigate } from "react-router-dom";
 import ShopNav from "../components/ShopNavigation/ShopNav";
-import styles from "./itemDetails.module.css";
+import styles from "./ItemDetails.module.css";
 import { useState } from "react";
 //TODO - use /api/items/id get endpoint
 function ItemDetails() {

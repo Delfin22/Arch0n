@@ -1,6 +1,6 @@
 import BGvideo from "/assets/aboutUsBG.mp4";
 import PageNav from "../components/pageNavigation/PageNav";
-import styles from "./aboutPage.module.css";
+import styles from "./AboutPage.module.css";
 import { motion } from "framer-motion";
 function AboutPage() {
   return (
